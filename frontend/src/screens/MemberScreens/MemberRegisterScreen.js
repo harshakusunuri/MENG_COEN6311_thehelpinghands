@@ -110,7 +110,7 @@ function MemberRegisterScreen() {
                         onChange={(e) => setAddressLocation(e.target.value)} />
                 </Form.Group>
 
-s
+
                 <Alert variant="success" >
                     <Alert.Heading>Hey, nice to see you</Alert.Heading>
                     <hr />
@@ -122,7 +122,7 @@ s
 
                 <Button variant="primary" type="submit" style={{ 'background-color': '#4bbf73' }}>
                     Register as a Member
-                    </Button>
+                </Button>
 
 
             </Form >
