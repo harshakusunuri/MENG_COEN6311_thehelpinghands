@@ -23,13 +23,21 @@ function MotoOfOurOrganizationScreen() {
                 width: '290%', position: 'sticky', background: '#eafff1', height: '260%', 'border-radius': '10px',
                 top: '16%', 'box-shadow': '0 0 5px #000'
             }}>
-                <h5>  <Nav defaultActiveKey="/" className="flex-column"><h5>Contents of the Page:</h5>
-                    <Nav.Link href="/#page_top"><i class="fas fa-arrow-alt-circle-up"></i>TOP of the Page</Nav.Link>
+                <h5>  <Nav defaultActiveKey="/" className="flex-column"><h4>Contents of the Page:</h4>
+                    <p>MOTO OF OUR ORGANIZATION</p>
+
+                    <p >HOW TO HELP YOUR COMMUNITY AFTER A NATURAL DISASTER</p>
+                    <p >FIVE REASONS FOR DONATING TO CHARITY</p>
+                    <p >MOTO TO VOLUNTEER</p>
+                    {/* 
+
+                     <Nav.Link href="/#page_top"><i class="fas fa-arrow-alt-circle-up"></i>TOP of the Page</Nav.Link>
 
                     <Nav.Link href="/#HOW_TO_HELP">HOW TO HELP YOUR COMMUNITY AFTER A NATURAL DISASTER</Nav.Link>
                     <Nav.Link href="/#FIVE_REASONS">FIVE REASONS FOR DONATING TO CHARITY</Nav.Link>
                     <Nav.Link href="/#MOTO_TO_VOLUNTEER">MOTO TO VOLUNTEER</Nav.Link>
-                    {/* <Nav.Link href="/MotoOfOurOrganizationScreen#MOTO_TO_VOLUNTEER">MOTO TO VOLUNTEER</Nav.Link> */}
+
+                    <Nav.Link href="/MotoOfOurOrganizationScreen#MOTO_TO_VOLUNTEER">MOTO TO VOLUNTEER</Nav.Link> */}
 
                 </Nav>
                     <Link to='/DonationScreen' style={{
@@ -58,23 +66,23 @@ function MotoOfOurOrganizationScreen() {
                     and cross‐cultural agreement on their importance, suggests that they are ideally suited to
                     developing and tailoring effective, global interventions to combat this pandemic.
 
-                    </p>
+                </p>
 
                 <h4 id='HOW_TO_HELP' >HOW TO HELP YOUR COMMUNITY AFTER A NATURAL DISASTER</h4>
                 <p>
                     <img src={image} style={{ width: '100%' }} />
 
                     <p>In the aftermath of a natural disaster or violent weather event, entire communities can be
-                    displaced, destroyed, and in need of help. We’ve seen over the years the effects of massive
-                    hurricanes such as Hurricane Harvey in Texas, or Hurricane Michael in Northern Florida, and more
-                    recently the violent Tornados tearing through Missouri.</p>
+                        displaced, destroyed, and in need of help. We’ve seen over the years the effects of massive
+                        hurricanes such as Hurricane Harvey in Texas, or Hurricane Michael in Northern Florida, and more
+                        recently the violent Tornados tearing through Missouri.</p>
                     <p>When the weather subsides, and the damage is done, reality sets it for those who have suffered
-                    through it. Survivors and those effected first hand by these acts of mother nature need help,
-                    both near and far. From simple donations such as food and water, to medical and psychological
-                    care, and more, we can help rebuild and help others get back to their normal lives in the wake of
-                    adversity.</p>
+                        through it. Survivors and those effected first hand by these acts of mother nature need help,
+                        both near and far. From simple donations such as food and water, to medical and psychological
+                        care, and more, we can help rebuild and help others get back to their normal lives in the wake of
+                        adversity.</p>
                     <h6>If you want to help your community in the aftermath of a natural disaster, here are some things
-                    you can do:</h6>
+                        you can do:</h6>
                     <h6>1. Send Funds or Crucial Supplies  :<Link to='/DonationScreen' style={{
                         color: 'rgb(50 55 39)', 'background-color': 'rgb(255 203 5)'
                     }} ><i class="fas fa-hand-holding-usd"></i>Donations link</Link></h6>
@@ -98,10 +106,10 @@ function MotoOfOurOrganizationScreen() {
                         color: 'rgb(50 55 39)', 'background-color': 'rgb(255 203 5)'
                     }} ><i class="fas fa-hand-holding-usd"></i>Donations link</Link></h6>
                     <p>If you’re eligible and able, giving blood is one of the best ways to help save lives following a
-                    disaster. Hospitals have historically shown an increased demand for blood after disasters and
-                    due to the short shelf life, they can’t just stock up months ahead of time to alleviate the future
-                    demand. Contact the American Red Cross or local relief efforts to see if and where you can
-                    donat</p>
+                        disaster. Hospitals have historically shown an increased demand for blood after disasters and
+                        due to the short shelf life, they can’t just stock up months ahead of time to alleviate the future
+                        demand. Contact the American Red Cross or local relief efforts to see if and where you can
+                        donat</p>
 
                 </p>
 
@@ -141,7 +149,7 @@ function MotoOfOurOrganizationScreen() {
                     to them, and could even bring about a family-wide effort to back a charity or charities that have
                     special significance to you as a group.
 
-                    </p>
+                </p>
 
 
                 <h4 id='MOTO_TO_VOLUNTEER' >MOTO TO VOLUNTEER</h4>
