@@ -1,0 +1,2 @@
+# MENG_COEN6311_thehelpinghands
+This project is running on a single server of django backend python. The python framework used here is the Django rest framework using MVT. As I have opted for template oriented one, the backend server will do the job by linking the frontend with template static files. These frontend static files are built from react project, which generated only index.html, basic minified chunk js &amp; css and other static files.
